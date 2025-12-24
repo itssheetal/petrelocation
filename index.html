@@ -1,0 +1,264 @@
+<think>
+First, the user asked for "html code" after I provided the website structure and content. They want the HTML code for the website I described.
+
+</think>```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Relocation - Safe Pet Transport Worldwide</title>
+    <meta name="description" content="Pet Relocation offers safe, caring international and domestic pet transport services. From pet documentation to door-to-door delivery, we ensure stress-free pet relocation worldwide.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; color: #333; }
+        .hero { background: url('https://via.placeholder.com/1920x600?text=Hero+Image+of+Pets+in+Travel') no-repeat center/cover; height: 60vh; display: flex; align-items: center; justify-content: center; color: white; text-align: center; }
+        .hero h1 { font-size: 3rem; }
+        .hero p { font-size: 1.2rem; }
+        .btn-custom { background-color: #4A90E2; color: white; border: none; padding: 10px 20px; margin: 5px; }
+        .btn-custom:hover { background-color: #357ABD; }
+        .section { padding: 50px 0; }
+        .service-card { text-align: center; padding: 20px; border: 1px solid #ddd; margin: 10px; border-radius: 8px; }
+        .testimonial { background: #f9f9f9; padding: 20px; margin: 10px; border-radius: 8px; }
+        .process-step { text-align: center; margin: 20px; }
+        .gallery img { width: 100%; height: 200px; object-fit: cover; margin: 10px; }
+        .footer { background: #333; color: white; padding: 20px 0; text-align: center; }
+        @media (max-width: 768px) { .hero h1 { font-size: 2rem; } .section { padding: 30px 0; } }
+        /* Simple animations */
+        .fade-in { animation: fadeIn 1s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    </style>
+</head>
+<body>
+
+    <!-- Header/Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Pet Relocation</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#why-choose">Why Choose Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#process">How It Works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                </ul>
+                <a href="#contact" class="btn btn-custom ms-3">Get a Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero fade-in">
+        <div class="container">
+            <h1>We move your pets with love, care, and safety across the world.</h1>
+            <p>Specializing in international pet travel and domestic pet transport, we provide end-to-end pet relocation services to reunite you with your furry family members.</p>
+            <a href="#contact" class="btn btn-custom">Get a Quote</a>
+            <a href="#contact" class="btn btn-custom">Track Relocation</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section bg-light">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://via.placeholder.com/500x300?text=Team+with+Pets" alt="Team handling pets" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <p>Pet Relocation is a trusted pet transport and relocation company dedicated to making pet moving services seamless and stress-free. With years of experience in the pet industry, we specialize in both international and domestic pet shifting, ensuring your beloved companions travel safely from one corner of the globe to another. Our team understands that pets are family, not cargo, and we treat every relocation with the utmost care and compassion.</p>
+                    <p>We handle all aspects of pet relocation, including comprehensive safety measures, full documentation support, quarantine assistance, custom travel crates, veterinary health checks, and ongoing comfort during transit. Whether it's dog shifting or cat relocation, our experts provide personalized attention to minimize stress and ensure a smooth journey.</p>
+                    <p>At Pet Relocation, trust and transparency are at our core. We partner with airlines, vets, and customs officials to navigate pet customs clearance and international pet travel regulations. Choose us for reliable pet cargo services that prioritize your pet's well-being above all.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="row">
+                <div class="col-md-4 service-card">
+                    <i class="fas fa-plane fa-3x"></i>
+                    <h5>International Pet Relocation</h5>
+                    <p>We specialize in global pet transport, handling dog shifting and cat relocation across borders. Our team manages all logistics for safe, compliant international pet travel, ensuring your pet arrives healthy and happy.</p>
+                </div>
+                <div class="col-md-4 service-card">
+                    <i class="fas fa-home fa-3x"></i>
+                    <h5>Domestic Pet Transport</h5>
+                    <p>For within-country moves, our domestic pet transport services offer reliable pet moving services. We provide door-to-door pickup and delivery, with expert handlers ensuring comfort during short or long journeys.</p>
+                </div>
+                <div class="col-md-4 service-card">
+                    <i class="fas fa-file-alt fa-3x"></i>
+                    <h5>Pet Travel Documentation & Licensing</h5>
+                    <p>Navigate pet documentation effortlessly with our support for licenses, permits, and forms. We assist with all required paperwork for pet customs clearance, making international pet travel stress-free.</p>
+                </div>
+                <div class="col-md-4 service-card">
+                    <i class="fas fa-stethoscope fa-3x"></i>
+                    <h5>Veterinary Health Certificates</h5>
+                    <p>Obtain vet-certified health certificates essential for pet relocation. Our partnerships with licensed veterinarians ensure your pet meets all health standards for travel, including vaccinations and exams.</p>
+                </div>
+                <div class="col-md-4 service-card">
+                    <i class="fas fa-box fa-3x"></i>
+                    <h5>IATA Approved Travel Crates</h5>
+                    <p>We supply custom, IATA-approved travel crates designed for pet safety and comfort. These crates meet airline standards for pet cargo, reducing stress during flights and transports.</p>
+                </div>
+                <div class="col-md-4 service-card">
+                    <i class="fas fa-car fa-3x"></i>
+                    <h5>Airport Pickup & Drop</h5>
+                    <p>Enjoy hassle-free airport services with our pickup and drop-off options. We handle pet transport from home to airport and back, coordinating with airlines for smooth pet relocation.</p>
+                </div>
+                <div class="col-md-4 service-card">
+                    <i class="fas fa-shield-alt fa-3x"></i>
+                    <h5>Quarantine & Customs Clearance</h5>
+                    <p>Expert assistance with quarantine requirements and pet customs clearance. We guide you through international regulations, ensuring compliance and timely reunions with your pets.</p>
+                </div>
+                <div class="col-md-4 service-card">
+                    <i class="fas fa-map-marker-alt fa-3x"></i>
+                    <h5>Live Pet Tracking & Support</h5>
+                    <p>Monitor your pet's journey with live tracking and 24/7 support. Our GPS-enabled systems provide real-time updates, giving pet parents peace of mind during pet transport.</p>
+                </div>
+                <div class="col-md-4 service-card">
+                    <i class="fas fa-bed fa-3x"></i>
+                    <h5>Pet Boarding (if required during transit)</h5>
+                    <p>Temporary pet boarding services for layovers or delays. We offer safe, comfortable facilities with vet checks, ensuring your pet's well-being while awaiting the next leg of travel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose" class="section bg-light">
+        <div class="container">
+            <h2>Why Choose Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <i class="fas fa-shield-alt"></i> <strong>100% Safe & Stress-Free Pet Travel</strong><br>We prioritize your pet's safety with vet-certified processes and gentle handling, ensuring a calm pet relocation experience.
+                </div>
+                <div class="col-md-6">
+                    <i class="fas fa-handshake"></i> <strong>End-to-End Assistance</strong><br>From inquiry to delivery, our team provides complete support for every aspect of pet transport and pet moving services.
+                </div>
+                <div class="col-md-6">
+                    <i class="fas fa-file"></i> <strong>Government & Airline Documentation Support</strong><br>Expert help with pet documentation, licenses, and pet customs clearance to meet international pet travel requirements.
+                </div>
+                <div class="col-md-6">
+                    <i class="fas fa-clock"></i> <strong>24/7 Pet Handling Experts</strong><br>Round-the-clock access to our experienced handlers for live pet tracking and emergency support during transit.
+                </div>
+                <div class="col-md-6">
+                    <i class="fas fa-map-marker"></i> <strong>GPS & Live Tracking</strong><br>Real-time GPS tracking keeps you updated on your pet's location, offering transparency in pet cargo journeys.
+                </div>
+                <div class="col-md-6">
+                    <i class="fas fa-truck"></i> <strong>Door-to-Door Pickup & Delivery</strong><br>Convenient home-to-home services for domestic and international pet transport, minimizing your pet's stress.
+                </div>
+                <div class="col-md-6">
+                    <i class="fas fa-stethoscope"></i> <strong>Vet-Certified Safety Checks</strong><br>All pets undergo thorough vet checks before and during travel, guaranteeing health and safety in pet relocation.
+                </div>
+                <div class="col-md-6">
+                    <i class="fas fa-globe"></i> <strong>Trusted by Pet Parents Worldwide</strong><br>Join thousands of satisfied customers who rely on us for reliable dog shifting, cat relocation, and global pet services.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="row">
+                <div class="col-md-3 testimonial">
+                    <img src="https://via.placeholder.com/100x100?text=Dog" alt="Dog testimonial" class="img-fluid rounded-circle">
+                    <p>"Pet Relocation made our international move with our golden retriever a breeze. Their care and live tracking gave us peace of mind—highly recommend for pet transport!" – Sarah J., New York to London.</p>
+                </div>
+                <div class="col-md-3 testimonial">
+                    <img src="https://via.placeholder.com/100x100?text=Cat" alt="Cat testimonial" class="img-fluid rounded-circle">
+                    <p>"As a cat mom, I was worried about stress, but their team handled our feline's relocation with such love. The quarantine support was invaluable!" – Mike T., Sydney to Tokyo.</p>
+                </div>
+                <div class="col-md-3 testimonial">
+                    <img src="https://via.placeholder.com/100x100?text=Bird" alt="Bird testimonial" class="img-fluid rounded-circle">
+                    <p>"Our parrot's journey was seamless thanks to their expert documentation and tracking. Pet Relocation truly treats pets like family." – Emily R., Miami to Paris.</p>
+                </div>
+                <div class="col-md-3 testimonial">
+                    <img src="https://via.placeholder.com/100x100?text=Rabbit" alt="Rabbit testimonial" class="img-fluid rounded-circle">
+                    <p>"Moving our rabbit across states was stress-free with their door-to-door service. Trustworthy and caring—our go-to for pet moving services." – David L., Los Angeles to Chicago.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="process" class="section bg-light">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="row">
+                <div class="col-md-2 process-step">
+                    <i class="fas fa-search fa-2x"></i>
+                    <h5>1. Inquiry & Quote</h5>
+                    <p>Contact us with your pet's details for a personalized quote. We assess your needs for international or domestic pet relocation.</p>
+                </div>
+                <div class="col-md-2 process-step">
+                    <i class="fas fa-stethoscope fa-2x"></i>
+                    <h5>2. Health Checkup</h5>
+                    <p>Schedule a vet visit for health certificates and exams. We ensure your pet is fit for travel and pet customs clearance.</p>
+                </div>
+                <div class="col-md-2 process-step">
+                    <i class="fas fa-file fa-2x"></i>
+                    <h5>3. Documentation</h5>
+                    <p>Our team prepares all required pet documentation, including licenses and permits for smooth international pet travel.</p>
+                </div>
+                <div class="col-md-2 process-step">
+                    <i class="fas fa-box fa-2x"></i>
+                    <h5>4. Travel Crate Preparation</h5>
+                    <p>We provide or customize IATA-approved crates, ensuring comfort and safety for your pet during transport.</p>
+                </div>
+                <div class="col-md-2 process-step">
+                    <i class="fas fa-plane fa-2x"></i>
+                    <h5>5. Pet Transport</h5>
+                    <p>Handled by experts, your pet travels via air or ground with live tracking and 24/7 support for pet cargo journeys.</p>
+                </div>
+                <div class="col-md-2 process-step">
+                    <i class="fas fa-home fa-2x"></i>
+                    <h5>6. Delivery to Destination</h5>
+                    <p>Safe arrival and handover at your new location. We confirm well-being and provide post-relocation tips.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="row">
+                <div class="col-md-3"><img src="https://via.placeholder.com/300x200?text=Dog+in+Crate" alt="Safe dog shifting in action during international pet travel" class="gallery img-fluid"></div>
+                <div class="col-md-3"><img src="https://via.placeholder.com/300x200?text=Cat+Handling" alt="Gentle cat relocation with our caring handlers" class="gallery img-fluid"></div>
+                <div class="col-md-3"><img src="https://via.placeholder.com/300x200?text=Bird+in+Crate" alt="Exotic pet transport for birds, ensuring comfort" class="gallery img-fluid"></div>
+                <div class="col-md-3"><img src="https://via.placeholder.com/300x200?text=Rabbit+Boarding" alt="Pet boarding for rabbits during transit stops" class="gallery img-fluid"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>Phone:</strong> +1 (800) PET-RELO</p>
+                    <p><strong>Email:</strong> info@petrelocation.com</p>
+                    <p><strong>Address:</strong> 123 Pet Care Lane, Global City, USA 12345</p>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3"><input type="text" class="form-control" placeholder="Pet Name"></div>
+                        <div class="mb-3"><input type="text" class="form-control" placeholder="Type (e.g., Dog, Cat
